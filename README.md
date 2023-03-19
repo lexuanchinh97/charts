@@ -1,5 +1,5 @@
 # charts
-
+```
 helm package ./ -d ./publish
 helm repo index ./
 helm show
@@ -10,3 +10,4 @@ helm search repo lexuanchinh97
 helm install hello lexuanchinh97/mynginx
 
 helm uninstall hello
+```
